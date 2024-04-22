@@ -7,6 +7,7 @@ FROM flights
 where (scheduled_arrival-scheduled_departure) is not null
 ORDER BY 2
 LIMIT 5;"""
+
 #  flight_no | duration
 # -----------+----------
 #  PG0235    | 00:25:00
